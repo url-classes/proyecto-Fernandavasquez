@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /*Me permite deslizar cuando hago click en los cositos*/
+    scroll-behavior: smooth;
+}
+
+/*menu*/
+.contenedor-header{
+    background: cadetblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 35px;
+    color: #111111;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    accent-color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .6s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #111111;
+}
+.nav-responsive{
+    background-color: #111111;
+    color: #fff;
+    padding: 6px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
