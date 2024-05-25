@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- --------- UNICONS ---------- -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
     <title>Portafolio</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/Butterfly.png" type="image/x-icon">
@@ -34,27 +37,40 @@
     </div>
 
     <!--Parte de inicio de mi portafolio-->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/soy.jpg" alt="">
-            </div>
-            <h1>Fernanda Vásquez</h1>
-            <h2>Estudiante Ingenieria en Informatica y Sistemas</h2>
-            <h3>Desarrolladora</h3>
-            <div class="redes">
-                <a href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://wa.me/57844154"><i class="fa-solid fa-rss"></i></a>
-            </div>
+    
+    <section class="featured-box" id="inicio">
+        <div class="featured-text">
+          <div class="featured-text-card">
+              <span>Fernanda Vásquez</span>
+          </div>
+          <div class="featured-name">
+              <p>Soy <span class="typedText"></span></p>
+          </div>
+          <div class="featured-text-info">
+              <p>Estudiante Ingenieria en Informatica y Sistemas
+              </p>
+          </div>
+          <div class="redes">
+            <a class="icon" href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="icon" href="https://www.instagram.com/ferrcastiillo?igsh=MTYyendscXpsamgyOA%3D%3D&utm_source=qr"><i class="uil uil-instagram"></i></a>
+            <a class="icon" href="https://github.com/Fernandavasquez"><i class="uil uil-github-alt"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="icon" href="https://wa.me/57844154"><i class="uil uil-whatsapp"></i></a>
+           </div>
         </div>
-    </section>
+        <div class="featured-image">
+          <div class="image">
+              <img src="img/me.jpg" alt="avatar">
+          </div>
+        </div>
+     </section>
+
+
+
 
     <!-- Seccion sobre mi -->
     <section id="sobremi" class="sobremi">
-        <div class="contenido-zeccion">
+        <div class="contenido-seccion">
             <h2>Sobre mi</h2>
             <p><span> Hola, soy Fernanda Vásquez</span> soy estudiante de la Universidad Rafael Landívar.
             Estudio Ingeniería en Informática y Sistemas. Te cuento un poco sobre mí, soy una persona asertiva, proactiva, responsable
@@ -378,16 +394,23 @@
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
-        <div class="redes">
-            <a href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://wa.me/57844154"><i class="fa-solid fa-rss"></i></a>
+       <div class="redes">
+            <a class="icon" href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="icon" href="https://www.instagram.com/ferrcastiillo?igsh=MTYyendscXpsamgyOA%3D%3D&utm_source=qr"><i class="uil uil-instagram"></i></a>
+            <a class="icon" href="https://github.com/Fernandavasquez"><i class="uil uil-github-alt"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="icon" href="https://wa.me/57844154"><i class="uil uil-whatsapp"></i></a>
+        </div>
+
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Fernanda Vásquez</a> - All rights reserved</p>
         </div>
     </footer>
 
-
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 
 </body>
