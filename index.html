@@ -27,7 +27,6 @@
                 <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                 <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
                 <li><a href="#blog-posts" onclick="seleccionar()">BLOG</a></li>
-                <li><a href="#butterfly" onclick="seleccionar()">BUTTERFLY</a></li>
             </ul>
         </nav>
         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -64,10 +63,6 @@
           </div>
         </div>
      </section>
-
-
-
-
     <!-- Seccion sobre mi -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
@@ -149,11 +144,6 @@
                     </div>
                 </div>
             </div>
-
-            <button>
-                Descarga mi CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
         </div>
     </section>
 
@@ -375,34 +365,17 @@
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/totito.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Juego</h3>
-                        <p>Totito</p>
-                    </div>
-                </div>
-                <div class="proyecto">
                     <img src="img/megatubos.png" alt="">
                     <div class="overlay">
                         <h3>Desarrollo de software</h3>
                         <p>MegaTubos</p>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/hotel.png" alt="">
-                    <div class="overlay">
-                        <h3>Sitio Web</h3>
-                        <p>Hotel Neblina</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/blockchain.jpg" alt="" >
-                    <div class="overlay" >
-                        <h3>Blockchain</h3>
-                        <p>Billetera</p>
-                    </div>
-                </div>
             </div>
+            <button onclick="location.href='info/info.html'; event.preventDefault()">
+                Ir a proyectos  <i class="bx bx-code-alt"></i>
+                <span class="overlay" ></span>
+            </button>
         </div>
     </section>
 
@@ -413,25 +386,14 @@
             <div class="col">
                 <div class="about-info">
                     <h3>Conoce sobre mi blog</h3>
-                    <p><a href="api/api.html">Dame click!</a>
+                        <button onclick="location.href='api/api.html'; event.preventDefault()">
+                            Click  <i class="bx bx-code-alt"></i>
+                            <span class="overlay" ></span>
+                        </button>
                     </p>
                 </div>
             </div>
     </section>
-
-    <section id="butterfly" class="butterfly">
-        <div class="contenido-seccion">
-            <h3>Butterfly</h3>
-            <div class="carpeta">
-                <div class="butterfly">
-                    
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
@@ -445,9 +407,12 @@
         </div>
 
         <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#inicio" style="text-decoration: black;">Fernanda Vásquez</a> - All rights reserved</p>
+            <p>Copyright &copy; <a href="#inicio">Fernanda Vásquez</a> - All rights reserved</p>
         </div>
     </footer>
+
+ 
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>

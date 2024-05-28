@@ -56,7 +56,7 @@
     cursor: pointer;
     display: none;
 }
-/* PRUBEA*/
+
 :root{
     --body-color: rgb(250, 250, 250);
     --color-white: rgb(255, 255, 255);
@@ -70,18 +70,18 @@
     --colorPrimario: #fff;
     --colorSecundario: #9dbed1;
 }
-/* ----- BASE ----- */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* ----- SMOOTH SCROLL ----- */
+
 html{
     scroll-behavior: smooth;
 }
-/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+
 ::-webkit-scrollbar{
     width: 10px;
     border-radius: 25px;
@@ -96,14 +96,14 @@ html{
 ::-webkit-scrollbar-thumb:hover{
     background: #bbb;
 }
-/* ----- FEATURED BOX ----- */
+
 .featured-box{
     position: relative;
     display: flex;
     height: 100vh;
     min-height: 700px;
 }
-/* ----- FEATURED TEXT BOX ----- */
+
 .featured-text{
     position: relative;
     display: flex;
@@ -165,7 +165,7 @@ html{
 .icon:hover{
     color: var(--text-color-third);
 }
-/* ----- FEATURED IMAGE BOX ----- */
+
 .featured-image{
     display: flex;
     justify-content: center;
@@ -213,66 +213,6 @@ html{
     font-size: 20px;
 }
 
-
-
-
-
-/*PRUEBA */
-
-/*Portada de inicio*/
-.inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.inicio .contenido-banner{
-    padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-    border-radius: 40px;
-}
-
-.inicio .contenido-banner img{
-    position: relative;
-    width: 100%;
-    height: 50%;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 30px;
-}
-.inicio .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 42px;
-    font-family: 'Righteous';
-}
-.inicio .contenido-banner h2{
-    font-size: 15px;
-    font-weight: normal;
-}
-.inicio .contenido-banner .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-.inicio .contenido-banner .redes a:hover{
-    background-color: #9dbed1;
-}
 
 /*Sobre mi*/
 .sobremi{
@@ -350,32 +290,6 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
-}
-.sobremi button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.sobremi button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color:  rgb(30, 159, 171);
-    z-index: -1;
-    transition: 1s;
-}
-.sobremi button:hover .overlay{
-    width: 100%;
 }
 
 /* PARTE DE DISENIO DE SKILL */
@@ -700,8 +614,14 @@ html{
 .proyectos .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
-
+.proyectos .contenido-seccion .click{
+    color: #08ffff;
+}
+.proyectos .contenido-seccion .click a{
+    color: #08ffff;
+}
 /*Footer redes sociales*/
+
 footer{
     background-color: #ffffff;
     color: #fff;
@@ -722,6 +642,7 @@ footer .redes a{
     width: 42px;
     height: 42px;
     line-height: 42px;
+    text-align: center;
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
@@ -730,7 +651,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #9dbed1;
+    background-color: rgb(185, 53, 165);
     color: #fff;
     position: absolute;
     left: 50%;
@@ -740,8 +661,6 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-
-/*Seccion */
 
 @media screen and (max-width:980px){
     nav{
@@ -811,7 +730,6 @@ footer .arriba{
         width: 100%;
     }
 }
-/* ----- ABOUT INFO ----- */
 .about-info{
     position: relative;
     display: flex;
@@ -827,4 +745,61 @@ footer .arriba{
     text-align: center;
     font-size: 15px;
     color: #000000;
+}
+
+.blog-posts button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.blog-posts button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:  rgb(219, 105, 185);
+    z-index: -1;
+    transition: 1s;
+}
+.blog-posts button:hover .overlay{
+    width: 100%;
+}
+.proyectos button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    display: block;
+    margin: 5px auto; /* Reduce margin for smaller button */
+    padding: 5px 15px;  /* Reduce padding for smaller button */
+    font-size: 14px;  /* Reduce font size for smaller button */
+    color: #fff;
+    position: relative;
+    z-index: 10;
+  }
+.proyectos button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:  rgb(219, 105, 185);
+    z-index: -1;
+    transition: 1s;
+}
+.proyectos button:hover .overlay{
+    width: 100%;
+}
+.bottom-footer{
+    font-size: 14px;
+    margin-top: 10px;
+    color:#000000;
 }
