@@ -25,7 +25,7 @@
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1a4761;
+    color: rgb(185, 53, 165);
     text-decoration: none;
 }
 .contenedor-header header .logo span{
@@ -65,7 +65,7 @@
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
     --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
+    --third-color: rgb(231, 152, 219);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
     --colorPrimario: #fff;
     --colorSecundario: #9dbed1;
@@ -159,16 +159,16 @@ html{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 5px 0px rgb(231, 152, 219);
     cursor: pointer;
 }
 .icon:hover{
-    color: var(--first-color);
+    color: var(--text-color-third);
 }
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-content: center;
     min-height: 80vh;
     width: 50%;
@@ -286,7 +286,7 @@ html{
 }
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 20px 0;
 
@@ -297,7 +297,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #9dbed1;
+    color:  rgb(30, 159, 171);
     font-weight: bold;
 }
 .sobremi .fila{
@@ -309,7 +309,7 @@ html{
 }
 .sobremi .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
 }
 .sobremi .fila .col ul{
@@ -320,11 +320,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #9dbed1;
+    color:  rgb(30, 159, 171);
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #9dbed1;
+    background-color:  rgb(30, 159, 171);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -345,7 +345,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #9dbed1;
+    background-color:  rgb(30, 159, 171);
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -370,7 +370,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #9dbed1;
+    background-color:  rgb(30, 159, 171);
     z-index: -1;
     transition: 1s;
 }
@@ -380,8 +380,8 @@ html{
 
 /* PARTE DE DISENIO DE SKILL */
 .skills{
-    background-color: #252A2E;
-    color: #fff;
+    background-color:rgb(30, 159, 171);
+    color: #ffffff;
     padding: 50px 20px;
 }
 .skills .contenido-seccion{
@@ -422,7 +422,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #9dbed1;
+    background-color: rgb(231, 152, 219);
     position: absolute;
     top: 0;
     left: 0;
@@ -432,7 +432,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #9dbed1;
+    background-color: rgb(194, 81, 177);
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -534,8 +534,8 @@ html{
 
 /* Seccion Curriculum */
 .curriculum{
-    background-color: #1e2326;
-    color: #fff;
+    background-color: #fffafa;
+    color: #000000;
     padding: 50px 20px;
 }
 .curriculum .contenido-seccion{
@@ -563,17 +563,17 @@ html{
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252A2E;
+    border-right: 2px solid rgb(30, 159, 171);
 }
 
 /* */
 .curriculum .fila .derecha{
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid rgb(30, 159, 171);
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color: rgb(30, 159, 171);
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -581,14 +581,15 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #9dbed1;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #9dbed1;
+    font-weight: bold;
+    color: rgb(185, 53, 165);
     margin-bottom: 10px;
 }
 /**/
@@ -596,16 +597,16 @@ html{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #9dbed1;
+    border-right: 2px solid rgb(30, 159, 171);
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #9dbed1;
+    border-left: 2px solid rgb(30, 159, 171);
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #9dbed1;
+    background-color: rgb(30, 159, 171);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -617,14 +618,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #9dbed1;
+    background-color: rgb(30, 159, 171);
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #9dbed1;
+    background-color: rgb(30, 159, 171);
     width: 47px;
     position: absolute;
     top: 50%;
@@ -636,7 +637,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #9dbed1;
+    background-color: rgb(30, 159, 171);
     float: left;
     position: relative;
     bottom: 4px;
@@ -645,7 +646,7 @@ html{
 
 .proyectos{
     background-color: #252A2E;
-    color: #131517;
+    color: #feffff;
     padding: 50px 20px;
 }
 .proyectos .contenido-seccion{
@@ -680,7 +681,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(252, 252, 252, 0.8));
+    background: linear-gradient(rgba(29, 186, 210, 0.8), rgba(252, 252, 252, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -702,7 +703,7 @@ html{
 
 /*Footer redes sociales*/
 footer{
-    background-color: #252A2E;
+    background-color: #ffffff;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -713,7 +714,7 @@ footer .redes{
     margin-bottom: 20px;
 }
 footer .redes a{
-    color: #fff;
+    color: #0f0f0f;
     display: inline-block;
     text-decoration: none;
     border: 1px solid #fff;
@@ -809,4 +810,21 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+}
+/* ----- ABOUT INFO ----- */
+.about-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background: rgba(29, 186, 210, 0.8);;
+    border-radius: 20px;
+}
+.about-info p{
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
 }

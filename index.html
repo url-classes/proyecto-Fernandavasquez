@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <!-- --------- UNICONS ---------- -->
-     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Portafolio</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/Butterfly.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!--Encabezado de mi portafolio-->
@@ -26,7 +26,7 @@
                 <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                 <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                 <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
-                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                <li><a href="#blog-posts" onclick="seleccionar()">BLOG</a></li>
                 <li><a href="#butterfly" onclick="seleccionar()">BUTTERFLY</a></li>
             </ul>
         </nav>
@@ -60,7 +60,7 @@
         </div>
         <div class="featured-image">
           <div class="image">
-              <img src="img/me.jpg" alt="avatar">
+              <img src="img/fer.jpg" alt="avatar">
           </div>
         </div>
      </section>
@@ -100,7 +100,7 @@
                         </li>
                         <li>
                             <strong>DIRECCION</strong>
-                            6ta av. 1-79 zona 10 Pacaja Alto
+                            Quetzaltenango, Guatemala.
                         </li>
                     </ul>
                 </div>
@@ -122,12 +122,27 @@
                             <span>VIAJAR</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-brands fa-windows">
+                            <i class="bx bx-run">
                             </i>
-                            <span>WINDOWS</span>
+                            <span>BAILAR</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-angles-up"></i>
+                            <i class="bx bx-dumbbell">
+                            </i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bx-math">
+                            </i>
+                            <span>MATEMATICAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bxs-cat">
+                            </i>
+                            <span>GATOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="uil uil-palette"></i>
                             <span>PINTAR</span>
                         </div>
 
@@ -148,7 +163,7 @@
             <h2>Skills</h2>
             <div class="fila">
                 <div class="col">
-                    <h3>Programas</h3>
+                    <h3>Habilidades Tecnicas</h3>
                     <div class="skill">
                         <span>Python</span>
                         <div class="barra-skill">
@@ -373,8 +388,35 @@
                         <p>MegaTubos</p>
                     </div>
                 </div>
+                <div class="proyecto">
+                    <img src="img/hotel.png" alt="">
+                    <div class="overlay">
+                        <h3>Sitio Web</h3>
+                        <p>Hotel Neblina</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/blockchain.jpg" alt="" >
+                    <div class="overlay" >
+                        <h3>Blockchain</h3>
+                        <p>Billetera</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+
+
+    <section id="blog-posts" class="blog-posts">
+        <div class="top-header">
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Conoce sobre mi blog</h3>
+                    <p><a href="api/api.html">Dame click!</a>
+                    </p>
+                </div>
+            </div>
     </section>
 
     <section id="butterfly" class="butterfly">
@@ -403,15 +445,11 @@
         </div>
 
         <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Fernanda Vásquez</a> - All rights reserved</p>
+            <p>Copyright &copy; <a href="#inicio" style="text-decoration: black;">Fernanda Vásquez</a> - All rights reserved</p>
         </div>
     </footer>
-
-    <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- ----- SCROLL REVEAL JS Link----- -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
-
 </body>
 </html>
