@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/Butterfly.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Encabezado de mi portafolio-->
+   <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#"><span>F</span> e r n a n d a</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                <li><a href="#blog-posts" onclick="seleccionar()">BLOG</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    </div>
+
+    <!--Parte de inicio de mi portafolio-->
+    
+    <section class="featured-box" id="inicio">
+        <div class="featured-text">
+          <div class="featured-text-card">
+              <span>Fernanda Vásquez</span>
+          </div>
+          <div class="featured-name">
+              <p>Soy <span class="typedText"></span></p>
+          </div>
+          <div class="featured-text-info">
+              <p>Estudiante Ingenieria en Informatica y Sistemas
+              </p>
+          </div>
+          <div class="redes">
+            <a class="icon" href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="icon" href="https://www.instagram.com/ferrcastiillo?igsh=MTYyendscXpsamgyOA%3D%3D&utm_source=qr"><i class="uil uil-instagram"></i></a>
+            <a class="icon" href="https://github.com/Fernandavasquez"><i class="uil uil-github-alt"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="icon" href="https://wa.me/57844154"><i class="uil uil-whatsapp"></i></a>
+           </div>
+        </div>
+        <div class="featured-image">
+          <div class="image">
+              <img src="img/fer.jpg" alt="avatar">
+          </div>
+        </div>
+     </section>
+    <!-- Seccion sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span> Hola, soy Fernanda Vásquez</span> soy estudiante de la Universidad Rafael Landívar.
+            Estudio Ingeniería en Informática y Sistemas. Te cuento un poco sobre mí, soy una persona asertiva, proactiva, responsable
+             y puntual con lo que se me disponga. Además me gusta trabajar con una actitud positiva y agradable 
+             para así llevarme bien con las personas con las que conviva. Me gusta conocer personas, me gustan los animalitos.
+            Esta es mi primera experencia realizando por primera vez mi portafolio. </p>
+            
+            <div class="fila">
+                <!--Datos mios-->
+            
+                <div class="col">
+                    
+                    <h3>Datos personales</h3>
+                    
+                    <ul>
+                        <li>
+                            <strong>CUMPLEAÑOS</strong>
+                            03-ENERO-2003
+                        </li>
+                        <li>
+                            <strong>TELEFONO</strong>
+                            +502 5784-4154
+                        </li>
+                        <li>
+                            <strong>EMAIL</strong>
+                            castilloferlisbeth@gmail.com
+                        </li>
+                        <li>
+                            <strong>DIRECCION</strong>
+                            Quetzaltenango, Guatemala.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- APARTADO DE MIS INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span> 
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bx-run">
+                            </i>
+                            <span>BAILAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bx-dumbbell">
+                            </i>
+                            <span>GYM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bx-math">
+                            </i>
+                            <span>MATEMATICAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="bx bxs-cat">
+                            </i>
+                            <span>GATOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="uil uil-palette"></i>
+                            <span>PINTAR</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NextJs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- SKILLS para mi profesion-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Compromiso</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Primaria</h4>
+                        <span class="casa">Escuela Oficial Rural Mixta Pacaja Alto</span>
+                        <span class="fecha">2007-2014</span>
+                        <p>6to primaria cursado en Los Ángeles California, E.U en School Rabbits.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Básico</h4>
+                        <span class="casa">Instituto de Estudios Avanzados IEA Campus Los Altos</span>
+                        <span class="fecha">2015-2017</span>
+                        <p>Menciono que primero básico lo estudie en el colegio Pino Montano en 2015</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diversificado</h4>
+                        <span class="casa">Instituto de Estudios Avanzados IEA Campus Los Altos</span>
+                        <span class="fecha">2018-2019</span>
+                        <p>Bachillerato en Ciencias y Letras con Orientación en Computación</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Rafael Landivar Quetzaltenango</span>
+                        <span class="fecha">2020 - Presente</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col derecha">
+                    <h3>Logros</h3>
+                    <div class="item der">
+                        <h4>#TEAM2019</h4>
+                        <span class="casa">Programación Intermedia</span>
+                        <span class="fecha">2019</span>
+                        <p>Obtuve el 2do lugar en programación intermedia, en la Universidad
+                            Mesoamericana.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Feria de la Ciencia</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2018</span>
+                        <p>Haber obtenido mención Honorífica en la feria
+                             de la ciencia en participación en Instituto
+                             de Estudios Avanzado Campus Los Altos IEA.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Presidente</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2024</span>
+                        <p>Soy presidenta de la facultad de Ingeniería en Informatica y Sistemas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/paint.png" alt="">
+                    <div class="overlay">
+                        <h3>Programa</h3>
+                        <p>Paint</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/snake.png" alt="">
+                    <div class="overlay">
+                        <h3>Programa</h3>
+                        <p>Snake</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ia.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Programa</h3>
+                        <p>IA de Papel y Tijera</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/deadrun.png" alt="">
+                    <div class="overlay">
+                        <h3>Video Juego</h3>
+                        <p>Dead Run</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/megatubos.png" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo de software</h3>
+                        <p>MegaTubos</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="location.href='info/info.html'; event.preventDefault()">
+                Ir a proyectos  <i class="bx bx-code-alt"></i>
+                <span class="overlay" ></span>
+            </button>
+        </div>
+    </section>
+
+
+    <section id="blog-posts" class="blog-posts">
+        <div class="top-header">
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Conoce sobre mi blog</h3>
+                        <button onclick="location.href='api/api.html'; event.preventDefault()">
+                            Click  <i class="bx bx-code-alt"></i>
+                            <span class="overlay" ></span>
+                        </button>
+                    </p>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+       <div class="redes">
+            <a class="icon" href="https://www.facebook.com/share/8bEQezbyJLm4ob4R/?mibextid=JRoKGi"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="icon" href="https://www.instagram.com/ferrcastiillo?igsh=MTYyendscXpsamgyOA%3D%3D&utm_source=qr"><i class="uil uil-instagram"></i></a>
+            <a class="icon" href="https://github.com/Fernandavasquez"><i class="uil uil-github-alt"></i></a>
+            <a class="icon" href="https://www.linkedin.com/in/fernanda-lisbeth-v%C3%A1squez-castillo-7724a61b9/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="icon" href="https://wa.me/57844154"><i class="uil uil-whatsapp"></i></a>
+        </div>
+
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#inicio">Fernanda Vásquez</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+ 
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>

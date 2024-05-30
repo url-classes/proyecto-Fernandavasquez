@@ -1,5 +1,32 @@
 {
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "name": "proyecto-fernandavasquez",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "nodemon": "^3.1.2",
+    "rimraf": "^5.0.7"
+  },
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "nodemon api/server.js",
+    "build": "npm run build:change-dir && npm run build:clean && npm run build:copy",
+    "build:change-dir": "cd .",
+    "build:clean": "rimraf dist/",
+    "build:copy": "copyfiles index.html api/* css/* img/* info/* scripts.js dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/url-classes/proyecto-Fernandavasquez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/url-classes/proyecto-Fernandavasquez/issues"
+  },
+  "homepage": "https://github.com/url-classes/proyecto-Fernandavasquez#readme",
+  "description": ""
 }
