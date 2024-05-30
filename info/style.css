@@ -81,60 +81,92 @@ html{
 }
 
 
-.inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
-    background-size: cover;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    align-items: center;
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
 }
 
-.inicio .contenido-banner{
-    padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-    border-radius: 40px;
-}
-
-.inicio .contenido-banner img{
+.featured-box{
     position: relative;
-    width: 100%;
-    height: 50%;
-    background-position: center;
     display: flex;
-    align-items: center;
-    padding: 30px;
-}
-.inicio .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 42px;
-    font-family: 'Righteous';
-}
-.inicio .contenido-banner h2{
-    font-size: 15px;
-    font-weight: normal;
-}
-.inicio .contenido-banner .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-.inicio .contenido-banner .redes a:hover{
-    background-color: #9dbed1;
+    height: 100vh;
+    min-height: 700px;
 }
 
+.featured-text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 80vh;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+.featured-text-card span{
+    background: var(--third-color);
+    color: var(--color-white);
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.featured-name{
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-block: 20px;
+}
+.typedText{
+    text-transform: capitalize;
+    color: var(--text-color-third);
+}
+.featured-text-info{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: var(--text-color-second);
+}
+.featured-text-btn{
+    display: flex;
+    gap: 20px;
+}
+.featured-text-btn>.blue-btn{
+    background: var(--first-color);
+    color: var(--color-white);
+}
+.featured-text-btn>.blue-btn:hover{
+    background: var(--first-color-hover);
+}
+
+.scroll-btn{
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   translate: -50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   height: 50px;
+   gap: 5px;
+   text-decoration: none;
+   color: var(--text-color-second);
+   background: var(--color-white);
+   border-radius: 30px;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.scroll-btn i{
+    font-size: 20px;
+}
 /*Portafolio*/
 .project-container {
     display: flex;
@@ -223,8 +255,34 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-
+img {
+    object-fit: cover; /* Ajustar la imagen para cubrir todo el contenedor */
+  }
+  
 /*Seccion */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+  }
+  
+  .contenedor-principal::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+  
 
 @media screen and (max-width:980px){
     nav{
@@ -250,43 +308,9 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
-    .sobremi .fila{
-        display: block;
-    }
-    .sobremi .fila .col{
-        width: fit-content;
-    }
+   
 
-    .skills .fila{
-        display: block;
-    }
-    .skills .fila .col{
-        width: 100%;
-    }
-    .skills .fila .col .barra-skill{
-        width: 100%;
-    }
-
-    .curriculum .fila{
-        display: block;
-    }
-    .curriculum .fila .col{
-        width: 90%;
-    }
-    .curriculum .fila .derecha{
-        margin-left: 20px;
-    }
-
-    .portfolio .galeria{
-        display: block;
-        width: 100%;
-    }
-    .portfolio .galeria .proyecto{
-        max-width: 100%;
-    }
-    .portfolio .galeria .proyecto img{
-        width: 100%;
-    }
+  
     .contacto .fila{
         display: block;
     }

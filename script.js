@@ -53,7 +53,7 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("python");
         habilidades[1].classList.add("javascript");
-        habilidades[2].classList.add("c#");
+        habilidades[2].classList.add("c");
         habilidades[3].classList.add("htmlcss");
         habilidades[4].classList.add("nextjs");
         habilidades[5].classList.add("comunicacion");
@@ -68,4 +68,3 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
-
