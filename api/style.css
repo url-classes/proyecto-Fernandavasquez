@@ -200,3 +200,30 @@ h3{
         width: 100%;
     }
 }
+
+.button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:  rgb(219, 105, 185);
+    z-index: -1;
+    transition: 1s;
+}
+.button:hover .overlay{
+    width: 100%;
+}
