@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "netlify": "^13.1.17"
   },
   "name": "proyecto-fernandavasquez",
   "version": "1.0.0",
